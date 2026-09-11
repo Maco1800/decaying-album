@@ -14,5 +14,16 @@ export async function GET(request, { params }) {
   const { data: views } = await supabaseAdmin
   .rpc('increment_views', { photo_id: id })
 
-  return Response.json({ path: row.storage_path, views })
+  const { data: blob } = await supabaseAdmin
+    .storage.from('photos')
+    .download(row.storage_path)
+
+  const buffer = Buffer.from(await blob.arrayBuffer())
+
+  return new Response(buffer, {
+    headers: {
+      'Content-Type': 'image/jpeg',
+      'Cache-Control': 'no-store'
+    }
+  })
 }
