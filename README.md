@@ -126,8 +126,10 @@ For Software:
 <img width="1440" height="900" alt="Screenshot 2026-09-12 at 4 29 30 AM" src="https://github.com/user-attachments/assets/df60db5f-65fe-4207-9d77-b7fafdcca14a" />
 *The upload page. The button says "give it away", which is accurate.*
 
+
 <img width="1440" height="900" alt="Screenshot 2026-09-12 at 4 29 56 AM" src="https://github.com/user-attachments/assets/f7755339-0c64-4c8f-816f-f9a62910e335" />
 *The gallery. Each photograph is at a different stage of death depending on how much attention it has received. View counts are shown beneath each one.*
+
 
 <img width="1440" height="900" alt="Screenshot 2026-09-12 at 4 30 20 AM" src="https://github.com/user-attachments/assets/62716383-16e4-4f05-b70b-4ffc7cde338d" />
 *The photograph was viewed 14 times. No filter was applied. This is the same file, overwritten fourteen times.*
