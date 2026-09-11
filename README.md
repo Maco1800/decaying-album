@@ -123,8 +123,8 @@ rather than blocking.
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](<img width="1884" height="1005" alt="image" src="https://github.com/user-attachments/assets/93af26f2-05f5-497e-8478-beb8950d080b" />
-)
+<img width="1884" height="1005" alt="image" src="https://github.com/user-attachments/assets/93af26f2-05f5-497e-8478-beb8950d080b" />
+
 *The upload page. The button says "give it away", which is accurate.*
 
 ![Screenshot2](ADD: the gallery grid showing photos at different stages of decay)
