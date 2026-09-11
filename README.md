@@ -151,7 +151,7 @@ graph TD
 *A photograph being opened repeatedly until nothing recognisable remains, in real time. No editing, no speed-up — every frame in the video is a real HTTP request that really destroyed the file.*
 
 # Additional Demos
-![Decaying Album](https://decaying-album.vercel.app/)
+[Decaying Album](https://decaying-album.vercel.app/)
 
 ---
 Made with ❤️ at TinkerHub Useless Projects
