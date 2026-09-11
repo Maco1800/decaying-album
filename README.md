@@ -133,8 +133,17 @@ For Software:
 *The same photograph at views 1, 10, 20 and 30. No filter was applied. This is the same file, overwritten thirty times.*
 
 # Diagrams
-![Workflow](ADD: architecture diagram)
-*Request flow: browser → photo page → image endpoint → Postgres (increment) → Storage (download) → sharp pipeline → Storage (overwrite) → browser. The loop back into Storage is the entire project.*
+```mermaid
+graph TD
+    A[Browser opens /photo/id] --> B[GET /api/photo/id]
+    B --> C[(Postgres: increment views)]
+    C --> D[Storage: download current file]
+    D --> E[sharp: resample, hue, tint, blur, jpeg]
+    E --> F[(Storage: overwrite original)]
+    F --> G[Return damaged bytes to browser]
+    G -.next view.-> A
+```
+*Each view reads the already-damaged file, damages it further, and writes it back. No original is kept.*
 
 ### Project Demo
 # Video
@@ -142,7 +151,7 @@ For Software:
 *A photograph being opened repeatedly until nothing recognisable remains, in real time. No editing, no speed-up — every frame in the video is a real HTTP request that really destroyed the file.*
 
 # Additional Demos
-[ADD LIVE LINK]
+![Decaying Album](https://decaying-album.vercel.app/)
 
 ---
 Made with ❤️ at TinkerHub Useless Projects
