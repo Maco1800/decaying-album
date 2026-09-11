@@ -123,15 +123,14 @@ rather than blocking.
 For Software:
 
 # Screenshots (Add at least 3)
-<img width="1884" height="1005" alt="image" src="https://github.com/user-attachments/assets/93af26f2-05f5-497e-8478-beb8950d080b" />
-
+<img width="1440" height="900" alt="Screenshot 2026-09-12 at 4 29 30 AM" src="https://github.com/user-attachments/assets/df60db5f-65fe-4207-9d77-b7fafdcca14a" />
 *The upload page. The button says "give it away", which is accurate.*
 
-![Screenshot2](ADD: the gallery grid showing photos at different stages of decay)
+<img width="1440" height="900" alt="Screenshot 2026-09-12 at 4 29 56 AM" src="https://github.com/user-attachments/assets/f7755339-0c64-4c8f-816f-f9a62910e335" />
 *The gallery. Each photograph is at a different stage of death depending on how much attention it has received. View counts are shown beneath each one.*
 
-![Screenshot3](ADD: a decay sequence — same photo at view 1, 10, 20, 30)
-*The same photograph at views 1, 10, 20 and 30. No filter was applied. This is the same file, overwritten thirty times.*
+<img width="1440" height="900" alt="Screenshot 2026-09-12 at 4 30 20 AM" src="https://github.com/user-attachments/assets/62716383-16e4-4f05-b70b-4ffc7cde338d" />
+*The photograph was viewed 14 times. No filter was applied. This is the same file, overwritten fourteen times.*
 
 # Diagrams
 ```mermaid
@@ -148,8 +147,8 @@ graph TD
 
 ### Project Demo
 # Video
-[ADD DEMO VIDEO LINK]
-*A photograph being opened repeatedly until nothing recognisable remains, in real time. No editing, no speed-up — every frame in the video is a real HTTP request that really destroyed the file.*
+https://github.com/user-attachments/assets/1090eadf-6e5d-4584-8448-e1df69a76cfa
+
 
 # Additional Demos
 [Decaying Album](https://decaying-album.vercel.app/)
